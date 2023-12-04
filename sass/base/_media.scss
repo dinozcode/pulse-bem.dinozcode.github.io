@@ -1,0 +1,138 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+    .promo {
+        padding: 21px 0 30px 0;
+        min-height: 600px;
+    }
+
+    .advantages {
+        &__subtitle {
+            margin-top: 20px;
+        }
+        &__descr {
+            margin-top: 20px;
+        }
+    } 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    
+    .container{
+        max-width: 850px;
+        
+    }    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .promo {
+        padding: 21px 10px 30px 10px;
+        min-height: 500px;
+        &__wrapper {
+            align-items:center;
+            margin-top: 60px;
+        }
+        &__icons {
+            margin-top: 30px;
+        }
+        &__subheader {
+            margin-top: 5px;
+        }
+    }
+    .advantages {
+        padding: 30px 10px 30px 10px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .header {
+        flex-direction: column;
+        &__logo {
+            width: 350px;
+        }
+        &__official {
+            margin-top: 20px;
+            font-size: 24px;
+            span {
+                margin-top: -12px;
+                font-size: 28px;
+            }
+        }
+        &__contacts {
+            margin-top: 20px;
+            a {
+                font-size: 32px;
+            }
+            button {
+                width: 290px;
+                height: 50px;
+                font-size: 26px;
+            }
+        }
+    }
+
+    .promo {
+        &__header {
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+        }
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 76px;
+        }
+        &__icon{
+            width: 250px;
+            margin-top: 66px;
+            font-size: 24px;
+            img {
+                width: 95px;
+                margin-bottom: 4px;
+            }
+        }
+        &__link {
+            font-size: 20px;
+            a {
+                font-size: 24px;
+            }
+        }
+    }
+
+    .button {
+        &_main {
+            font-size: 20px;
+        }
+    }
+
+    .title {
+        font-size: 34px;
+        margin-top: 40px;
+    }
+    
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+
+        }
+        &__item {
+            margin-top: 40px;
+            max-width: 400px;;
+        }
+        &__subtitle {
+            margin-top: -4px;
+            font-size: 24px;
+        }
+        &__descr {
+            font-size: 20px;
+            margin-top: 10px;
+            a {
+                font-size: 28px;
+            }
+        }
+    }
+}
