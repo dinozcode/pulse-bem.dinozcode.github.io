@@ -169,6 +169,25 @@
             font-size: 26px;
         }
     }
-    
-    
+}
+
+/* Smartphones */
+@media only screen and (max-width : 320px) {
+    .promo {
+        width: 100%;
+        &__icons {
+            width: 100%;
+        }
+    }
+    .container {
+        width: 100%;
+    }
+    .feed-form {
+        width: 95%;
+    }
+    .header {
+        &__logo {
+            width: 95%;
+        }
+    }
 }
