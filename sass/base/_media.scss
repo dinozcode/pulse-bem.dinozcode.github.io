@@ -228,6 +228,13 @@
 
         
     }
+    .modal {
+        width: 98%;
+        border-radius: 3px;
+        &__close {
+            right: 0;
+        }
+    }
 }
 
 /* Smartphones */
