@@ -229,6 +229,7 @@
         
     }
     .modal {
+        margin-top: 24px;
         width: 98%;
         border-radius: 3px;
         &__close {
@@ -283,4 +284,7 @@
             font-size: 14px;
         }
     }
+    .modal {
+        margin-top: 24px;
+    }    
 }
