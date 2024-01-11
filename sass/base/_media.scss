@@ -228,12 +228,22 @@
 
         
     }
+    
     .modal {
-        margin-top: 24px;
-        width: 98%;
+        
+        margin-top: 70px;
+        width: 86%;
         border-radius: 3px;
         &__close {
+            display: block;
+            position: absolute;
             right: 0;
+        }
+    }
+    .feed-form {
+        input {
+            height: 22px;
+            font-size: 14px;
         }
     }
 }
@@ -284,7 +294,5 @@
             font-size: 14px;
         }
     }
-    .modal {
-        margin-top: 24px;
-    }    
+    
 }
