@@ -43,6 +43,7 @@
         flex-wrap: wrap;
         &_active {
             display: flex;
+            
         }
     }
     &-item {
@@ -134,6 +135,9 @@
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;
+            }
+            ul {
+                list-style-type: none;
             }
             li {
                 position: relative;

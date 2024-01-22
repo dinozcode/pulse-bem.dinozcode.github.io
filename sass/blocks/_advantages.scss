@@ -32,6 +32,17 @@
             text-decoration: underline;
             color: $main-color;
         }
+    }
+    &__icon {
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 1.2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-duration: 0.3s; 
+            }
+        }
     }   
         
 }    

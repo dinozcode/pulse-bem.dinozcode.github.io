@@ -19,13 +19,13 @@ $email = $_POST['email'];
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'ouroboros4666@gmail.com';                 // Наш логин
-    $mail->Password = 'pjioqaqyfnylzpbk';                           // Наш пароль от ящика
+    $mail->Username = '********';                 // Наш логин
+    $mail->Password = '********';                           // Наш пароль от ящика
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 465;                                    // TCP port to connect to
     
-    $mail->setFrom('ouroboros4666@gmail.com', 'Pulse');   // От кого письмо 
-    $mail->addAddress('gihixah278@wuzak.com');     // Add a recipient
+    $mail->setFrom('*******@mail', 'Pulse');   // От кого письмо 
+    $mail->addAddress('******@mail');     // Add a recipient
 
     
 
