@@ -232,8 +232,7 @@
     .modal {
         
         margin-top: 70px;
-        width: 86%;
-        border-radius: 3px;
+        width: 100%;
         &__close {
             display: block;
             position: absolute;
@@ -245,6 +244,12 @@
             height: 22px;
             font-size: 14px;
         }
+    }
+    .pageup {
+        bottom: 20px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -293,6 +298,12 @@
         &__descr {
             font-size: 14px;
         }
+    }
+    .pageup {
+        bottom: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
     }
     
 }

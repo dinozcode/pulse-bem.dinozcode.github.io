@@ -34,6 +34,8 @@
         }
     }
     &__icon {
+        width: 100px;
+        min-height: 100px;
         &_animated {
             animation-name: heartbeat;
             animation-duration: 1.2s;
